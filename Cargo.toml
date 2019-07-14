@@ -1,0 +1,11 @@
+[package]
+name = "velodyne-conv"
+version = "0.1.0"
+authors = ["newpavlov <newpavlov@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+velodyne = { path = "velodyne" }
+
+[workspace]
+members = ["velodyne"]
